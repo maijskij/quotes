@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.5036458333333333" />
+        <entry key="app/src/main/res/layout/activity_navig.xml" value="0.223731884057971" />
+        <entry key="app/src/main/res/layout/content_navig.xml" value="0.223731884057971" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.223731884057971" />
+        <entry key="app/src/main/res/layout/fragment_first2.xml" value="0.24728260869565216" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.223731884057971" />
+        <entry key="app/src/main/res/layout/venue_row_item.xml" value="0.223731884057971" />
+        <entry key="quoteviewer/src/main/res/layout/activity_main.xml" value="0.24265450861195542" />
+        <entry key="quoteviewer/src/main/res/layout/activity_navig.xml" value="0.14583333333333334" />
+        <entry key="quoteviewer/src/main/res/layout/activity_quate_main.xml" value="0.24265450861195542" />
+        <entry key="quoteviewer/src/main/res/layout/content_navig.xml" value="0.3307291666666667" />
+        <entry key="quoteviewer/src/main/res/layout/content_quate_main.xml" value="0.24265450861195542" />
+        <entry key="quoteviewer/src/main/res/layout/content_quote_main.xml" value="0.3776041666666667" />
+        <entry key="quoteviewer/src/main/res/layout/fragment_login.xml" value="0.21843003412969283" />
+        <entry key="quoteviewer/src/main/res/layout/fragment_quote_details.xml" value="0.3776041666666667" />
+        <entry key="quoteviewer/src/main/res/layout/fragment_quote_list.xml" value="0.5" />
+        <entry key="quoteviewer/src/main/res/layout/fragment_quote_search.xml" value="0.26927083333333335" />
+        <entry key="quoteviewer/src/main/res/layout/fragment_random_quote.xml" value="0.3494791666666667" />
+        <entry key="quoteviewer/src/main/res/layout/fragment_registration.xml" value="0.3338541666666667" />
+        <entry key="quoteviewer/src/main/res/layout/fragment_second.xml" value="0.3776041666666667" />
+        <entry key="quoteviewer/src/main/res/layout/quote_row_item.xml" value="0.67" />
+        <entry key="quoteviewer/src/main/res/layout/venue_row_item.xml" value="0.2552083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quotes Viewer</string>
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="i_want_to_see_more_quotes">I want to see more quotes</string>
+    <string name="registration_fragment_label">Registration</string>
+    <string name="search_quote">Search quotes</string>
+    <string name="you_are_logged_in">You are logged in!</string>
+    <string name="password">Password</string>
+    <string name="quote_details">Quote Details</string>
+</resources>

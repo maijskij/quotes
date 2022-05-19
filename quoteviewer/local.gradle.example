@@ -1,0 +1,5 @@
+android {
+    defaultConfig {
+        buildConfigField "String", "API_KEY", "\"<YOU_FAVQS_API_KEY>\""
+    }
+}
