@@ -57,7 +57,7 @@ class QuotesTests {
     }
 
     @Test
-    fun viewQuotesList() {
+    fun viewQuotesListAndDetails() {
         ActivityScenario.launch(QuoteMainActivity::class.java)
 
         onView(withId(R.id.load_more_quotes)).perform(click())
@@ -68,13 +68,7 @@ class QuotesTests {
             .check(matches(withText(FakeFavQsRepository.QUOTE_AUTHOR)))
         onView(withText(FakeFavQsRepository.QUOTE_TAG))
             .check(matches(isDisplayed()))
-    }
 
-    @Test
-    fun viewQuoteDetails() {
-        ActivityScenario.launch(QuoteMainActivity::class.java)
-
-        onView(withId(R.id.load_more_quotes)).perform(click())
         onView(withText(FakeFavQsRepository.QUOTE_BODY)).perform(click())
 
         onView(withId(R.id.quote))
