@@ -21,7 +21,7 @@ class FavQsRepositoryImpl @Inject constructor(
     override suspend fun getRandomQuote(): RepositoryResource<Quote> = try {
         val result = withContext(dispatcherIO) { api.getQuoteOfTheDay().quote }
         RepositoryResource.Success(result)
-    } catch (e: IOException) {
+    } catch (e: Exception) {
         RepositoryResource.Error(e)
     }
 
@@ -29,14 +29,14 @@ class FavQsRepositoryImpl @Inject constructor(
         try {
             val result = withContext(dispatcherIO) { api.getQuotesList(options) }
             RepositoryResource.Success(result)
-        } catch (e: IOException) {
+        } catch (e: Exception) {
             RepositoryResource.Error(e)
         }
 
     override suspend fun signIn(favQsUser: FavQsUser): RepositoryResource<FavQsUserSession> = try {
         val result = withContext(dispatcherIO) { api.signIn(favQsUser) }
         RepositoryResource.Success(result)
-    } catch (e: IOException) {
+    } catch (e: Exception) {
         RepositoryResource.Error(e)
     }
 
